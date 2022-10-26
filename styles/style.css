@@ -1,0 +1,40 @@
+ul {
+  list-style: none;
+}
+
+#headerBar {
+  background-color: red;
+  height: 127px;
+  width: 100%;
+}
+
+#topBar {
+  position: sticky;
+  background-color: lightcoral;
+  height: 69px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#sidebarMenuButton {
+}
+
+#navBar {
+  height: 58px;
+  top: 58px;
+}
+
+#navLinkList {
+  background-color: lightsalmon;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 0 0 0 0;
+}
+
+#mainStorefront {
+  top: 127px;
+}
