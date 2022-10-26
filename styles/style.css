@@ -6,6 +6,7 @@ ul {
   background-color: red;
   height: 127px;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 #topBar {
@@ -37,4 +38,33 @@ ul {
 
 #mainStorefront {
   top: 127px;
+}
+
+#storefrontTopBanner {
+  width: auto;
+  height: fit-content;
+  background-color: aquamarine;
+  border: 3px dashed blue;
+  margin-bottom: 10px;
+}
+
+#storefrontTopBannerText {
+  text-align: center;
+}
+
+#catalog {
+  background-color: blueviolet;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 10px;
+}
+
+.catalogItem {
+  width: 250px;
+  background-color: green;
+  flex-grow: 1;
 }
