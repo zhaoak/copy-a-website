@@ -1,0 +1,71 @@
+ul {
+  list-style: none;
+}
+
+#headerBar {
+  background-color: red;
+  height: 127px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#topBar {
+  position: sticky;
+  background-color: lightcoral;
+  height: 69px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#sidebarMenuButton {
+}
+
+#navBar {
+  height: 58px;
+  top: 58px;
+}
+
+#navLinkList {
+  background-color: lightsalmon;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 0 0 0 0;
+}
+
+#mainStorefront {
+  top: 127px;
+}
+
+#storefrontTopBanner {
+  width: auto;
+  height: fit-content;
+  background-color: aquamarine;
+  border: 3px dashed blue;
+  margin-bottom: 10px;
+}
+
+#storefrontTopBannerText {
+  text-align: center;
+}
+
+.catalog {
+  background-color: beige;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 0;
+}
+
+.catalogItem {
+  width: 250px;
+  background-color: green;
+  flex-grow: 0;
+  text-align: center;
+}

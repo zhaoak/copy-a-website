@@ -4,7 +4,7 @@ Mockup is of layout only: no javascript
 
 ## Sample screenshot
 
-![screenshot showing layout of html elements on topatoco front page] (./topatoco_storepage.png)
+![screenshot showing layout of html elements on topatoco front page](./topatoco_storepage.png)
 
 - bright pink: header
 - dull purple: elements in header
