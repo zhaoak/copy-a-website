@@ -52,19 +52,20 @@ ul {
   text-align: center;
 }
 
-#catalog {
-  background-color: blueviolet;
+.catalog {
+  background-color: beige;
   width: 100%;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: flex-start;
   align-content: flex-start;
-  gap: 10px;
+  gap: 0;
 }
 
 .catalogItem {
   width: 250px;
   background-color: green;
-  flex-grow: 1;
+  flex-grow: 0;
+  text-align: center;
 }
